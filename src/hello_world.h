@@ -17,7 +17,7 @@ void init(void) {
 	window = window_create();
 	// Get root layer
 	rootLayer = window_get_root_layer(window);
-	// Create example layer
+	// Create example layer  at (0,0) and size (144, 154):
 	textLayer = text_layer_create(GRect(0, 0, 144, 154));
 
 	// Set text in the layer

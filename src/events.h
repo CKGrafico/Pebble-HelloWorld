@@ -6,6 +6,11 @@ Window *window;
 TextLayer *textLayer;
 Layer *rootLayer;
 
+/**
+* 
+* Only for show messages
+*
+*/
 void onClickSelect(ClickRecognizerRef recognizer, void *context) {
   text_layer_set_text(textLayer, "onClickSelect");
 }
@@ -34,6 +39,11 @@ void onClickMultiSelect(ClickRecognizerRef recognizer, void *context) {
   text_layer_set_text(textLayer, "onClickMultiSelect");
 }
 
+/**
+* config_clicks()
+* Configuration of cllick events
+*
+*/
 void config_clicks(void *context) {
   // Single click
   window_single_click_subscribe(BUTTON_ID_SELECT, onClickSelect);
