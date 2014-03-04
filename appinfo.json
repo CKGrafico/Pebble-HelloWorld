@@ -2,13 +2,13 @@
     "versionLabel": "1.0",
     "uuid": "3685c498-4943-4f59-a4a3-8ae4af0deafe",
     "appKeys": {},
-    "longName": "Hola mundo",
+    "longName": "Switch Examples",
     "versionCode": 1,
     "capabilities": [
         ""
     ],
-    "shortName": "Hola mundo",
-    "companyName": "quique@ckgrafico.com",
+    "shortName": "Examples",
+    "companyName": "CKGrafico",
     "watchapp": {
         "watchface": false
     },

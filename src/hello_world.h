@@ -1,7 +1,7 @@
 // Import pebble library
 #include <pebble.h>
-
-// Dclaration of elements
+  
+// Declaration of elements
 Window *window;
 TextLayer *textLayer;
 Layer *rootLayer;
